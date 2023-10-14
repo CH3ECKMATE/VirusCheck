@@ -13,4 +13,9 @@ Appends + stores info on files checked against VirusTotal to VirusTotalResults.x
 Checks against VirusTotalResults.xlsx to avoid duplicate scans.
 Press "q" to save progress.
 
+*Free VirusTotal limits 4 hash scans per minute / every 15 seconds
+¯\_(ツ)_/¯
 
+Scanned 100 files. Exiting.
+Data appended to VirusTotalResults.xlsx
+Elapsed Time: 00:25:17.1185026
