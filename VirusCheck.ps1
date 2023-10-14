@@ -46,7 +46,7 @@ function submit-VTHash($VThash)
     return $VTresult
 }
 
-# Set sleep time to 4 requests per minute
+# Set sleep time to 4 requests per minute for Public TotalVirus API
 $sleepTime = 15 
 
 # array to store the output data
