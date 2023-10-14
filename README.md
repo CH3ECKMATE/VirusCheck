@@ -1,5 +1,6 @@
 # VirusCheck
 Runs a VirusTotal scan on windows PE's. Set to run recursively + date added. 
+Use to build your own Known Good file baseline in excel!
 
 VirusTotal MD5 hash checker for exe files.
 Runs recursive against most recent files in specified folder.
