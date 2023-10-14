@@ -1,7 +1,5 @@
 Write-Host "Type q to save progress. Please be patient for large dir's :)"
-# Prompt for the number of files to scan
-# Use int
-# If you are going to set this to automatic ; set to a fixed value
+# Prompt for number of files to scan
 while ($true) {
 	$maxFilesToScan = Read-Host "Enter the number of files to scan"
 	if ($maxFilesToScan -as [int]) {
@@ -23,7 +21,7 @@ if ($module -eq $null) {
 
 Import-Module ImportExcel
 
-# FOLDER to search. Can make ask for user input. 
+# FOLDER to search. Change as wanted. 
 $folders = @("C:\windows\system32")
 
 # Get all PE's in the specified folders
