@@ -9,7 +9,7 @@ Write-Host "Type q to save progress. Please be patient for large dir's :)"
 while ($true) {
 	$maxFilesToScan = Read-Host "Enter the number of files to scan"
 	if ($maxFilesToScan -as [int]) {
-        break  # Exit the loop if a valid number is provided
+        break  # 
     } else {
         Write-Host "Invalid input. Please enter a valid number."
     }
