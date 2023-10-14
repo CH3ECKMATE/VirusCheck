@@ -1,3 +1,10 @@
+# You need VirusTotal account for APIKEY.
+# CHANGE APIKEY : "XXXX".
+# CHANGE FOLDER : where you want to search. 
+# .XLSX file will be generated. Keep file with this one.
+# Press "q" to save progress
+
+
 Write-Host "Type q to save progress. Please be patient for large dir's :)"
 # Prompt for number of files to scan
 while ($true) {
